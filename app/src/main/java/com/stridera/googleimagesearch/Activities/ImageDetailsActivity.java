@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 import com.stridera.googleimagesearch.R;
@@ -94,6 +95,7 @@ public class ImageDetailsActivity extends ActionBarActivity {
             Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
             mediaScanIntent.setData(bmpUri);
             sendBroadcast(mediaScanIntent);
+            Toast.makeText(ImageDetailsActivity.this, "Image saved to gallery", Toast.LENGTH_SHORT).show();
         } else {
             // Todo: Handle Error
         }
