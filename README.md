@@ -13,6 +13,7 @@ Time Spent: ~30-40 Hours
 * [x] Subsequent searches will have any filters applied to the search results
 * [x] User can tap on any image in results to see the image full-screen
 * [x] User can scroll down “infinitely” to continue loading more image results (up to 10 pages) 
+
 ### Optional User Stories
 * [x] Advanced: Robust error handling, check if internet is available, handle error cases, network failures (Mostly)
 * [x] Advanced: Use the ActionBar SearchView or custom layout as the query box instead of an EditText
@@ -21,6 +22,7 @@ Time Spent: ~30-40 Hours
 * [x] Advanced: Improve the user interface and experiment with image assets and/or styling and coloring
 * [x] Bonus: Use the StaggeredGridView to display improve the grid of image results
 * [x] Bonus: User can zoom or pan images displayed in full-screen detail view
+
 ### Additional User Stories
 * [x] Can select the number of columns you wish to have in your view
 * [x] As images load they first load an on-device placeholder, then the small thumbnail url, and finally full sized image in order
