@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--GridView Column Selection-->
+    <!--Minimum Values-->
+    <item name="min_portrait_columns" type="integer">1</item>
+    <item name="min_landscape_columns" type="integer">1</item>
+
+    <!--Maximum Values-->
+    <item name="max_portrait_columns" type="integer">4</item>
+    <item name="max_landscape_columns" type="integer">6</item>
+
+    <!--Default Values-->
+    <item name="default_portrait_columns" type="integer">2</item>
+    <item name="default_landscape_columns" type="integer">4</item>
+</resources>

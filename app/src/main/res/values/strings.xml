@@ -1,0 +1,91 @@
+<resources>
+    <!--Search Activity-->
+    <string name="app_name">Google Image Search</string>
+    <string name="title_activity_image_details">ImageDetailsActivity</string>
+    <string name="search_hint">Search</string>
+    <string name="settings_dialog_title">Search View Settings</string>
+    <string name="portrait_columns_title">Portrait Columns</string>
+    <string name="landscape_columns_title">Landscape Columns</string>
+
+    <!-- Menu Items-->
+    <string name="action_settings">Settings</string>
+
+
+    <!--Details Activity-->
+    <!--Menu Items-->
+    <string name="menu_share">Share</string>
+    <string name="menu_save">Save</string>
+
+    <!--Filter Dialog-->
+    <string name="dialog_title">Advanced Filters</string>
+    <string name="image_size_title">Image Size:</string>
+    <string name="color_filter_title">Color Filter:</string>
+    <string name="image_type_filter">Image Type:</string>
+    <string name="color_type_filter">Color Type:</string>
+    <string name="image_rights_title">Image Rights:</string>
+    <string name="safe_filter_title">Safe Search:</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="site_filter_title">Site Filter</string>
+    <string name="search_hint_text">Select search query and filters above.</string>
+    <string name="no_results">No Results Found</string>
+
+
+    <!--Filters-->
+    <string-array name="image_sizes_filter">
+        <item>None</item>
+        <item>Icon</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>XLarge</item>
+        <item>XXLarge</item>
+        <item>Huge</item>
+    </string-array>
+
+    <string-array name="image_type_filter">
+        <item>None</item>
+        <item>Clipart</item>
+        <item>Face</item>
+        <item>Lineart</item>
+        <item>News</item>
+        <item>Photo</item>
+    </string-array>
+
+    <string-array name="color_filter">
+        <item>None</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Teal</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="color_type_filter">
+        <item>None</item>
+        <item>Color</item>
+        <item>Gray</item>
+        <item>Mono</item>
+    </string-array>
+
+    <string-array name="image_rights_filter">
+        <item>None</item>
+        <item>Public Domain</item>
+        <item>Attribute</item>
+        <item>ShareALike</item>
+        <item>Non-Commercial</item>
+        <item>Non-Derived</item>
+    </string-array>
+
+    <string-array name="safe_filter">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Off</item>
+    </string-array>
+
+</resources>
